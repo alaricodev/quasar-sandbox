@@ -396,7 +396,7 @@ const menuSections = ref([
           { title: 'Forgot Password', link: '/auth/forgot' },
         ],
       },
-      { title: 'User Profile', icon: 'person', link: '/profile' },
+      { title: 'User Profile', icon: 'person', link: '/user/profile' },
       { title: 'Settings', icon: 'settings', link: '/settings' },
       { title: 'Pricing', icon: 'payments', link: '/pricing' },
       { title: 'Help Center', icon: 'help', link: '/help' },
