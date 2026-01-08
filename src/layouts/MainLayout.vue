@@ -197,7 +197,7 @@
         <div class="q-pa-md">
           <!-- Menu Sections -->
           <div v-for="section in menuSections" :key="section.title" class="menu-section">
-            <div class="section-title">{{ section.title }}</div>
+            <menu-div class="menu-section-title">{{ section.title }}</menu-div>
 
             <q-list class="menu-list">
               <template v-for="item in section.items" :key="item.title">
@@ -339,6 +339,7 @@ const menuSections = ref([
     items: [
       { title: 'Dashboard', icon: 'dashboard', link: '/' },
       { title: 'Componentes', icon: 'apps', link: '/componentes' },
+      { title: 'Contratos', icon: 'edit', link: '/contratos' },
       {
         title: 'Analytics',
         icon: 'analytics',
@@ -529,8 +530,8 @@ $transition: all 0.2s ease;
   margin-bottom: 1.5rem;
 }
 
-.section-title {
-  font-size: medium;
+.menu-section-title {
+  font-size: 0.7rem;
   font-weight: 600;
   color: #94a3b8;
   letter-spacing: 0.5px;
