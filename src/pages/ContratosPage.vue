@@ -2,7 +2,7 @@
   <q-page class="contracts-page">
     <!-- Header da Página -->
     <div class="page-header">
-      <div class="header-content">
+      <div class="header-content full-width">
         <div>
           <div class="flex items-center gap-sm q-mb-xs">
             <q-icon name="assignment" size="28px" color="primary" />
@@ -25,7 +25,7 @@
       </div>
 
       <!-- Stats Cards -->
-      <div class="stats-row">
+      <div class="stats-row full-width">
         <div class="stat-card">
           <div class="stat-icon bg-primary-light">
             <q-icon name="description" color="primary" size="24px" />
